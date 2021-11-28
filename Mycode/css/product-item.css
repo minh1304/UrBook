@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+
+body,html{
+    background-color: #F8F9FA;
+    
+}
+
+
+.duoinavbar{
+    background-color:#34495e ;
+}
+.duoinavbar {
+    height: 40px;
+}
+
+
+/* css breadcrumbbar */
+.breadcrumbbar 
+{
+    background: #F8F9FA;
+    height: 40px;
+}
+.breadcrumb{
+
+    height: 40px;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "/";
+}
+
+.breadcrumb-item a{
+    color: #030303;
+    transition: 0.2s;
+}
+
+.breadcrumb-item a:hover{
+    color:#1b0353;
+}
+
+.breadcrumb-item.active a{
+    color:#F5A623;
+}
+
+
+.khoithongtin .header h4 {
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.khoithongtin .header hr {
+    margin-top: 10px;
+
+}
+
+
+
+.khoithongtin .gia {
+    background: white;
+    border: 1px solid #dbe1e6;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 10px 0px 2px 16px;
+    font-size: 13px;
+}
+
+.khoithongtin .giaban  {
+    color:#e74c3c;
+    font-size: 36px;
+    top: 12px;
+    left: 149px;
+}
+
+/* don vi tien  */
+.khoithongtin .giaban .donvitien {
+    color:#e74c3c;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+/* icon uu dai*/
+.product-detail .icon1-img
+{
+    height: 10%;
+    width: 45px;
+}
+.product-detail .icon2-img
+{
+    height: 10%;
+    width: 45px;
+}
+.product-detail .icon3-img
+{
+    margin-top: 7px;
+    height: 10%;
+    width: 45px;
+}
+.khoithongtin .gia h6.header {
+    margin-top: 5px;
+}
+
+.khoithongtin .gia ul {
+    list-style: none;
+}
+
+.khoithongtin .gia ul li::before {
+    content: "\2022";
+    color: #2c3e50;
+    font-weight: bold;
+    display:none;
+    width: 1em;
+    margin-left: -1em;
+    font-size:15px;
+}
+
+.khoithongtin .soluong {
+    margin-top: 15px;
+}
+.khoithongtin .soluong label {
+    width: 101px;
+    font-size: 14px;
+    margin-top: 9px;
+}
+
+.khoithongtin .input-number .soluongsp {
+    width: 38px;
+    border: 1px solid #ebebeb;
+}
+
+.khoithongtin .nutmua {
+    background: linear-gradient(#34495e,#2c3e50);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/* thông tin sách */
+.thongtinsach a.tacgia {
+    color: #F5A623;
+    text-decoration: none;
+}
+
+.thongtinsach ul li {
+    margin-bottom: 5px;
+}
+
+.khoithongtin .thongtinsach ul {
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+.khoithongtin .thongtinsach {
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    padding: 13px;
+    font-size: 13px;
+}
+
+/* Mô tả nội dung sách */
+.noidung 
+{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+/* nút xem thêm */
+.noidung .noidungne .nutxemthem
+{
+    padding: 7px 20px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+/* Đánh giá sản phẩm */
+
+.formdanhgia .nutvietbl {
+    padding: 7px 20px;
+    border: 1px solid #2c3e50;
+    color: white;
+    font-weight: 500;
+    background-color: #2c3e50;; 
+}
+
+
+/* .formdanhgia1 .nutvietbl:hover {background: #2c3e50;color: white;} */
+
